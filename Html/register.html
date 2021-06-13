@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="../CSS/styleRegister.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header1">
+        <div class="kiri-header">
+          <a href="/Html/home.html"
+            ><img src="../Assets/Logo Putih.png" alt="" id="storeLogo"
+          /></a>
+        </div>
+        <div class="kanan-header">
+          <a href="login.html" id="login">Login</a>
+          <a href="register.html">Register</a>
+        </div>
+      </div>
+      <div class="header2">
+        <h1>Register</h1>
+      </div>
+    </div>
+
+    <div class="content1">
+      <form action="">
+        <div class="form-content">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" />
+        </div>
+        <div class="form-content">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" />
+        </div>
+        <div class="form-content">
+          <label for="confirmpassword">Confirm Password</label>
+          <input type="password" id="confirmpassword" name="confirmpassword" />
+        </div>
+        <div class="form-content">
+          <div class="kiri">
+            <label for="firstname">Full Name</label>
+          </div>
+          <div class="kanan">
+            <input type="text" id="firstname" name="firstname" />
+            <input type="text" id="lastname" name="lastname" />
+          </div>
+        </div>
+        <div class="form-content">
+          <label for="role">Gender</label>
+          <div>
+            <div class="form-content2">
+              <input type="radio" id="male" name="rbt" class="radio-button" />
+              <label for="male">Male</label>
+            </div>
+            <div class="form-content2">
+              <input type="radio" id="female" name="rbt" class="radio-button" />
+              <label for="female">Female</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-content">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div class="form-content">
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" />
+        </div>
+        <div class="form-content1">
+          <input type="checkbox" id="agreeBox" name="agreeBox" />
+          <label for="agreeBox">Agree with terms and conditions</label>
+        </div>
+        <div>
+          <button
+            onclick="submitForm(event)"
+            class="navbar-item"
+            id="submitBtn"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="footer">
+      <div class="kiri-footer">
+        <h1>©Everything you need, we provide.</h1>
+      </div>
+
+      <div class="kanan-footer">
+        <p>Find Us</p>
+        <div class="findUs">
+          <img
+            src="../Assets/logo-ig-lighting-and-furniture-design-studio-aqua-creations-32.png"
+            alt=""
+          />
+          <img src="../Assets/facebook.png" alt="" />
+          <img src="../Assets/youtube.png" alt="" />
+          <img src="../Assets/twitter.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="../Js/register.js"></script>
+  </body>
+</html>

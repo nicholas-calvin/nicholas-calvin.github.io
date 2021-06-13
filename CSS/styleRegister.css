@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+body {
+  background-color: #282828;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+#storeLogo {
+  width: 10em;
+  display: flex;
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2em;
+  border-bottom-style: solid;
+  border-color: #3e3e3e;
+}
+
+.kanan-header a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white;
+}
+
+.kanan-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 15em;
+}
+
+.kiri-header {
+  margin-left: 2em;
+}
+
+.header2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+.header2 {
+  padding-top: 1em;
+  color: white;
+  right: 50%;
+  position: absolute;
+  transform: translateX(50%);
+}
+
+/* BODY */
+
+.content1 {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-content {
+  width: 40em;
+  margin: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+input,
+select,
+textarea {
+  width: 20em;
+  padding: 0.4em 0px;
+  border: none;
+  border-bottom: solid 1px grey;
+}
+
+#firstname {
+  width: 9.9em;
+}
+
+#lastname {
+  width: 9.9em;
+}
+
+.radio-button {
+  width: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  font-size: 2em;
+}
+
+.form-content2 {
+  width: 230px;
+  padding: 0.1em 19em;
+}
+
+.form-content1 {
+  display: flex;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+#agreeBox {
+  width: 5em;
+}
+
+/* FOOTER */
+
+.footer {
+  border-top-style: solid;
+  border-color: #3e3e3e;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3em 0;
+}
+
+.kiri-footer h1 {
+  color: white;
+  font-weight: lighter;
+}
+
+.kiri-footer {
+  margin: 1em 2.5em;
+}
+
+.kanan-footer {
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.kanan-footer p {
+  font-size: 1.3em;
+  color: white;
+  padding-right: 1em;
+}
+
+.findUs img {
+  width: 3rem;
+  margin-right: 0.5em;
+}
+
+@media only screen and (max-width: 600px) {
+  .kiri-header {
+    margin-left: 0em;
+  }
+
+  .header2 {
+    margin-left: 2em;
+  }
+
+  /* body */
+
+  .content1 {
+    padding: 5em 10em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .form-content {
+    width: 30em;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 20em;
+    padding: 0.4em 0px;
+    border: none;
+    border-bottom: solid 1px grey;
+  }
+
+  #firstname {
+    width: 9.9em;
+  }
+
+  #lastname {
+    width: 9.9em;
+  }
+
+  .radio-button {
+    width: 20px;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  button {
+    width: 200px;
+    height: 50px;
+  }
+
+  .form-content2 {
+    width: 10em;
+    padding: 0.1em;
+  }
+
+  .form-content1 {
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  #agreeBox {
+    width: 5em;
+  }
+
+  /* footer */
+
+  .footer {
+    margin: 2em 0;
+  }
+
+  .kiri-footer h1 {
+    color: white;
+    font-weight: lighter;
+    font-size: 1em;
+  }
+
+  .findUs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .kanan-footer p {
+    padding: 0.3em;
+  }
+
+  .findUs img {
+    width: 2em;
+    margin: 0.1em;
+  }
+}
